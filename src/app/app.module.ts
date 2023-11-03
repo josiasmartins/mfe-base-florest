@@ -5,10 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TagComponent } from './enums/tag-component.enum';
 import { createCustomElement } from '@angular/elements';
+import { ElementBoxComponent } from './shared/element-box/element-box.component';
+import { ElementLoaderComponent } from './shared/components/element-loader/element-loader.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ElementBoxComponent,
+    ElementLoaderComponent
   ],
   imports: [
     BrowserModule,
